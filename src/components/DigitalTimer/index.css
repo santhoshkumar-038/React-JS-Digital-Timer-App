@@ -1,0 +1,117 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  height: 100vh;
+  padding: 100px;
+}
+.digital-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: 100% 100%;
+  height: 80vh;
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -40%;
+  margin-right: 10%;
+}
+.timer-heading {
+  text-align: center;
+}
+.time-container {
+  background-color: #ffffff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-pause-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  margin-right: 30%;
+}
+.start-button-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.start-button {
+  display: flex;
+  margin-bottom: 30px;
+}
+.set-timer-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.increase-decrease-container {
+  display: flex;
+  justify-content: center;
+}
+.start-reset-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.decrease-button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.set-minutes-container {
+  background-color: #00d9f5;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.increase-button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.timer {
+  font-size: 36px;
+  font-weight: bold;
+}
+.timer-status {
+  font-weight: bold;
+  font-size: 24px;
+}
+.reset-button-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.pause-start-button-text {
+  font-size: 30px;
+  font-weight: bold;
+}
